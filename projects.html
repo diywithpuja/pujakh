@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        .projects-div {
+            padding-top: 50px;
+            width: 100%;
+            overflow: hidden;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .projects-item {
+            position: relative;
+            width: 250px;
+            max-width: 450px;
+            margin-right: auto;
+            margin-left: auto;
+            justify-content: center;
+
+
+
+        }
+
+        .projects-item img {
+            border-radius: 12px;
+            width: 100%;
+            object-fit: contain;
+        }
+
+        .corner-text {
+            position: absolute;
+            border-top-left-radius: 12px;
+            top: 0;
+            left: 0;
+            padding: 10px 20px;
+            background-color: #8D493A;
+            color: #DFD3C3;
+        }
+
+
+
+
+        /* now thi sis for responsiveness */
+
+        @media only screen and (min-width:100px) and (max-width:425px) {
+            .projects-item {
+                margin-bottom: 15px;
+            }
+        }
+
+        @media only screen and (min-width:510px) and (max-width:768px) {
+            .projects-div {
+                display: grid;
+                grid-template-columns: auto auto;
+
+            }
+        }
+
+
+        @media only screen and (min-width:769px) and (max-width:1024px) {
+            .projects-div {
+                display: grid;
+                grid-template-columns: auto auto auto;
+
+            }
+        }
+
+
+        @media only screen and (min-width:1025px) and (max-width:1440px) {
+            .projects-div {
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="projects-div">
+        <div class="projects-item projects-item-1">
+            <img src="images/f.jpg" alt="here is a picture">
+            <p class="corner-text">
+                Lable 1
+            </p>
+        </div>
+        <div class="projects-item projects-item-1">
+            <img src="images/f.jpg" alt="here is a picture">
+            <p class="corner-text">
+                Lable 2
+            </p>
+        </div>
+        <div class="projects-item projects-item-1">
+            <img src="images/f.jpg" alt="here is a picture">
+            <p class="corner-text">
+                Lable 3
+            </p>
+        </div>
+        <div class="projects-item projects-item-1">
+            <img src="images/f.jpg" alt="here is a picture">
+            <p class="corner-text">
+                Lable 4
+            </p>
+        </div>
+        <div class="projects-item projects-item-1">
+            <img src="images/f.jpg" alt="here is a picture">
+            <p class="corner-text">
+                Lable 5
+            </p>
+        </div>
+        <div class="projects-item projects-item-1">
+            <img src="images/f.jpg" alt="here is a picture">
+            <p class="corner-text">
+                Lable 6
+            </p>
+        </div>
+        <div class="projects-item projects-item-1">
+            <img src="images/f.jpg" alt="here is a picture">
+            <p class="corner-text">
+                Lable 7
+            </p>
+        </div>
+        <div class="projects-item projects-item-1">
+            <img src="images/f.jpg" alt="here is a picture">
+            <p class="corner-text">
+                Lable 8
+            </p>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

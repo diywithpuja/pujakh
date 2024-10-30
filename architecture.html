@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abstract Architect</title>
+    <link rel="stylesheet" href="css/architect.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+      <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- first section that us home section -->
+    <section class="home-section" id="home">
+      <div class="main-container">
+        
+<!-- navbar here: -->
+        <nav class="topnav" id="myTopnav">
+          <a href="#home" class="active">
+            Home
+            <!-- <img src="images/finallogo.png" alt="logo is here" style="height:15px;"/> -->
+          </a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+        </nav>
+       
+
+        <div class="home-div">
+          <!-- this should be relative -->
+          <img src="images/photography.JPG" alt="there is photo" />
+          <div class="centered-logo">
+            <!-- this should be absolute -->
+            <!-- <img src="images/finallogo.png" alt="logo is here"> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- second section that is projects section -->
+    <section class="projects-section" id="projects">
+      <div class="main-container padded-container">
+        <p class="headings">Projects</p> <hr class="hrline"> 
+
+
+        <div class="projects-div">
+          <div class="projects-item projects-item-1">
+              <img src="images/f.jpg" alt="here is a picture">
+              <p class="corner-text">
+                  Lable 1
+              </p>
+          </div>
+          <div class="projects-item projects-item-1">
+              <img src="images/f.jpg" alt="here is a picture">
+              <p class="corner-text">
+                  Lable 2
+              </p>
+          </div>
+          <div class="projects-item projects-item-1">
+              <img src="images/f.jpg" alt="here is a picture">
+              <p class="corner-text">
+                  Lable 3
+              </p>
+          </div>
+          <div class="projects-item projects-item-1">
+              <img src="images/f.jpg" alt="here is a picture">
+              <p class="corner-text">
+                  Lable 4
+              </p>
+          </div>
+          <div class="projects-item projects-item-1">
+              <img src="images/f.jpg" alt="here is a picture">
+              <p class="corner-text">
+                  Lable 5
+              </p>
+          </div>
+          <div class="projects-item projects-item-1">
+              <img src="images/f.jpg" alt="here is a picture">
+              <p class="corner-text">
+                  Lable 6
+              </p>
+          </div>
+          <div class="projects-item projects-item-1">
+              <img src="images/f.jpg" alt="here is a picture">
+              <p class="corner-text">
+                  Lable 7
+              </p>
+          </div>
+          <div class="projects-item projects-item-1">
+              <img src="images/f.jpg" alt="here is a picture">
+              <p class="corner-text">
+                  Lable 8
+              </p>
+          </div>
+  
+      </div>
+  
+      </div>
+    </section>
+
+    <!-- third section that is about section -->
+    <section class="about-section" id="about">
+      <div class="main-container padded-container">
+        <p class="headings">About</p> <hr class="hrline"> 
+
+
+        <div class="grid-container">
+          <div class="grid-item item1">
+              <img src="images/portrait1.jpeg" alt="">
+              <p class="type">Single Person Portrait</p>
+              <p class="hours"> Min: 2 days & Max: 4 days</p>
+              <p class="desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quas aliquid temporibus architecto
+                  suscipit cupiditate sequi necessitatibus iure repellat, hic mollitia atque et tenetur modi tempore vitae
+                  debitis, nam vel.</p>
+              <button> contact </button>
+          </div>
+  
+  
+          <div class="grid-item item2">
+              <img src="images/portrait1.jpeg" alt="">
+              <p class="type">Single Person Portrait</p>
+              <p class="hours"> Min: 2 days & Max: 4 days</p>
+              <p class="desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quas aliquid temporibus architecto
+                  suscipit cupiditate sequi necessitatibus iure repellat, hic mollitia atque et tenetur modi tempore vitae
+                  debitis, nam vel.</p>
+              <button> contact </button>
+             
+          </div>
+          <div class="grid-item item3">
+              <img src="images/portrait1.jpeg" alt="">
+              <p class="type">Single Person Portrait</p>
+              <p class="hours"> Min: 2 days & Max: 4 days</p>
+              <p class="desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quas aliquid temporibus architecto
+                  suscipit cupiditate sequi necessitatibus iure repellat, hic mollitia atque et tenetur modi tempore vitae
+                  debitis, nam vel.</p>
+              <button> contact </button>
+          </div>
+          <div class="grid-item item4">
+              <img src="images/portrait1.jpeg" alt="">
+              <p class="type">Single Person Portrait</p>
+              <p class="hours"> Min: 2 days & Max: 4 days</p>
+              <p class="desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quas aliquid temporibus architecto
+                  suscipit cupiditate sequi necessitatibus iure repellat, hic mollitia atque et tenetur modi tempore vitae
+                  debitis, nam vel.</p>
+              <button> contact </button>
+          </div>
+      </div>
+  
+      </div>
+    </section>
+
+    <!-- forth section that is contact section -->
+    <section class="contact-section" id="contact">
+      <div class="main-container padded-container ">
+        <p class="headings">Contact</p> <hr class="hrline"> 
+
+        <form class="contact-form">
+        <p > Lets get in touch and talk about your next project. </p>
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="text" id="subject" placeholder="Subject" required>
+                <input type="text" id="comment" placeholder="Comment" required>
+                <button type="submit">Send Message</button>
+            </form>
+      </div>
+    </section>
+
+    <!-- fifth section that is map section -->
+    <section class="map-section">
+      <div class="main-container padded-container">
+        <img src="images/img1.jpg" />
+      </div>
+    </section>
+
+    <!-- last or the sixth section that is the footer section -->
+    <section class="footer-section">
+      <div class="main-container">
+        <p>
+          This Website was made with W3 Schools. make your own free website
+          today!
+        </p>
+        <!-- <button type="button"> <a href="#home">Start Now </a></button> -->
+      </div>
+    </section>
+  </body>
+</html>
